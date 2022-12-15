@@ -343,11 +343,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 30) return '逊欸。奥翔：就这？？';
-    if (score <= 60) return '一般般。奥翔：没感觉';
-    if (score <= 100) return '撅力大大增加';
-    if (score <= 150) return '恭喜，奥翔被你撅力！！！';
-    return '你就是田所浩二本人？';
+    if (score <= 30) return '？？？？';
+    if (score <= 60) return '一般般';
+    if (score <= 100) return '水平大大增加';
+    if (score <= 150) return '男神：狗死你';
+    return '没法治了';
 }
 
 function toStr(obj) {
